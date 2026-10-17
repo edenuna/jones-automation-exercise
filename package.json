@@ -1,0 +1,16 @@
+{
+  "name": "jones-automation-exercise",
+  "version": "1.0.0",
+  "description": "Playwright automation exercise - fills and submits the contact form on https://test.netlify.app/",
+  "private": true,
+  "scripts": {
+    "test": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "typescript": "^5.6.0"
+  }
+}
